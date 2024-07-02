@@ -33,3 +33,10 @@ Available columns:
 - LineOne
 - LineTwo
 - LineThree
+
+## Build
+1. Setup cross-rs: https://github.com/cross-rs/cross/blob/main/docs/getting-started.md
+2. Compile:
+```bash
+cross build --target aarch64-unknown-linux-musl --release
+```
